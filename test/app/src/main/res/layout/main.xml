@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical">
+
+
+
+	<TextView
+		android:text="控制台"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+
+	<ListView
+        android:divider="#ffffff"
+		android:layout_weight="1"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/mainListView"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<ImageButton
+            android:id="@+id/moreButton"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+            android:onClick="onclickmore"/>
+
+		<EditText
+            android:id="@+id/editMsgText"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"/>
+
+		<ImageButton
+            android:id="@+id/sendButton"
+			android:layout_height="50dp"
+			android:layout_width="50dp"/>
+
+	</LinearLayout>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="20dp"/>
+
+</LinearLayout>
+

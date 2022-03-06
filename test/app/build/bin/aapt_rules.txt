@@ -1,0 +1,15 @@
+# view AndroidManifest.xml #generated:88
+-keep class com.amap.api.location.APSService { <init>(...); }
+
+# view res/layout/map.xml #generated:7
+-keep class com.amap.api.maps.MapView { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.mytest.myappdemo.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class com.mytest.myappdemo.MapAction { <init>(...); }
+
+# onClick res/layout/main.xml #generated:30
+-keepclassmembers class * { *** onclickmore(...); }
+

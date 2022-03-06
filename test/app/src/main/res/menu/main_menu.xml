@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/connect"
+        android:icon="@drawable/ic_link"
+        android:showAsAction="ifRoom|withText"/>
+   
+    <item
+		android:id="@+id/exit"
+        android:title="Exit"/>
+    
+    <item
+        android:title="About"
+        />
+    <item
+        android:title="Setting"
+        />
+    <item
+        android:id="@+id/mapaction"
+        android:title="Map"/>
+    <item
+        android:title="State"
+        />
+    
+</menu>
